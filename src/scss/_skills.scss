@@ -1,0 +1,37 @@
+@import "variables";
+
+#skills {
+  background-image: linear-gradient($accent1, $accent3);
+  color: white;
+  height: 100vh;
+}
+.icon > i {
+  font-size: 100px;
+}
+.icon-html {
+  color: orange;
+}
+.icon-css {
+  color: rgb(88, 110, 232);
+}
+.icon-bootstrap {
+  color: rgb(241, 19, 241);
+}
+.icon-sass {
+  color: violet;
+}
+.icon-js {
+  color: rgba(255, 255, 0, 0.915);
+}
+.icon-nodejs {
+  color: rgba(172, 255, 47, 0.777);
+}
+.icon-reactjs {
+  color: lightblue;
+}
+.icon-php {
+  color: slateblue;
+}
+.icon-laravel {
+  color: rgba(255, 0, 0, 0.811);
+}

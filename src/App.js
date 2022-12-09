@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+// Hooks
+import { useEffect } from "react";
+// Sections
+import Landing from "./components/sections/Landing";
+import Projects from "./components/sections/Projects";
+import Modals from "./components/sections/Modals";
+// AOS
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
+  useEffect(() => {
+    AOS.init();
+  });
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Landing />
+      <Projects />
+      <Modals />
     </div>
   );
 }

@@ -1,0 +1,20 @@
+@import "variables";
+#contact {
+  min-height: 100vh;
+  background-image: linear-gradient($accent1, $accent3);
+  color: white;
+}
+.contact-card {
+  background-color: white;
+  color: $accent1;
+  border: none;
+  border-radius: 10px;
+}
+.contact-logo {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: $accent1;
+}
+.contact-footer {
+  background-color: $accent2;
+}

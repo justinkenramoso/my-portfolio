@@ -1,0 +1,21 @@
+@import "variables";
+
+#about {
+  min-height: 100vh;
+}
+.about-card {
+  border: 1px solid $accent1;
+}
+.dl-resume {
+  text-decoration: none !important;
+  font-size: medium;
+  background-color: $accent1;
+  color: white !important;
+  padding: 10px;
+  border: 2px solid $accent1;
+  border-radius: 10px;
+  transition: 0.5s;
+  :hover {
+    color: white;
+  }
+}

@@ -1,0 +1,32 @@
+@media screen and (max-width: 991px) {
+  .nav-text {
+    margin-top: 25px;
+    text-align: center;
+  }
+  .intro-header {
+    font-size: 40px;
+    margin-top: 0;
+  }
+  .intro-text {
+    font-size: 30px;
+  }
+  #linkButtons {
+    flex-direction: column;
+  }
+  .introBtn {
+    font-size: 20px;
+    margin: 3px auto 3px auto;
+    width: 70%;
+  }
+  #skills,
+  #about,
+  #contact {
+    min-height: auto;
+  }
+  .icon > i {
+    font-size: 80px;
+  }
+  .icon > h4 {
+    font-size: medium;
+  }
+}
