@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import Landing from "./components/sections/Landing";
 import Projects from "./components/sections/Projects";
 import Modals from "./components/sections/Modals";
+import Skills from "./components/sections/Skills";
 // AOS
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -16,6 +17,7 @@ function App() {
     <div>
       <Landing />
       <Projects />
+      <Skills />
       <Modals />
     </div>
   );

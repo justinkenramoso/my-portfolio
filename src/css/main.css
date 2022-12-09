@@ -136,47 +136,51 @@ header {
 #skills {
   background-image: linear-gradient(#002b5b, #2b4865);
   color: white;
-  height: 100vh;
+  min-height: 100vh;
 }
 
-.icon > i {
-  font-size: 100px;
+.skill-card {
+  background-color: white;
+  color: #002b5b;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
 }
 
-.icon-html {
-  color: orange;
+.skill-card:hover {
+  transform: scale(1.05);
 }
 
-.icon-css {
-  color: rgb(88, 110, 232);
+.react:hover {
+  color: #61dbfb !important;
 }
 
-.icon-bootstrap {
-  color: rgb(241, 19, 241);
+.node-js:hover {
+  color: #339933;
 }
 
-.icon-sass {
-  color: violet;
+.bootstrap:hover {
+  color: #563d7c;
 }
 
-.icon-js {
-  color: rgba(255, 255, 0, 0.915);
+.sass:hover {
+  color: #c69;
 }
 
-.icon-nodejs {
-  color: rgba(172, 255, 47, 0.777);
+.js:hover {
+  color: #f0db4f;
 }
 
-.icon-reactjs {
-  color: lightblue;
+.html5:hover {
+  color: #e34c26;
 }
 
-.icon-php {
-  color: slateblue;
+.css3-alt:hover {
+  color: #264de4;
 }
 
-.icon-laravel {
-  color: rgba(255, 0, 0, 0.811);
+.github:hover {
+  color: #171515;
 }
 
 #about {

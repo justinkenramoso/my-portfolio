@@ -45,7 +45,7 @@ function Landing() {
           {/* <!--Resume--> */}
           <a
             className="introBtn resumeBtn hvr-grow-rotate"
-            href="google.com"
+            href="https://drive.google.com/file/d/1MpVxr42dkdWDF3lYpv_ZoA1pCrEaxBtk/view?usp=share_link"
             target="_blank"
             rel="noreferrer"
           >

@@ -17,13 +17,20 @@ function ProjectItem(props) {
           <a
             className="project-btn"
             href={props.live}
+            target="_blank"
+            rel="noreferrer"
             style={{ marginLeft: "auto" }}
           >
             <i className="bi bi-arrow-up-right-square"></i> Go Live
           </a>
         </div>
         <div className="col-6 text-start">
-          <a className="project-btn" href={props.source}>
+          <a
+            className="project-btn"
+            href={props.source}
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="bi bi-code-slash"></i> View Source
           </a>
         </div>

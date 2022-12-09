@@ -3,7 +3,7 @@ import React from "react";
 function ProjectModal(props) {
   return (
     <div
-      className="modal fade"
+      className="modal fade p-0"
       id={props.id}
       tabIndex="-1"
       aria-labelledby="exampleModalLabel"
