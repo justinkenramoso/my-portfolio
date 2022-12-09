@@ -122,11 +122,6 @@ header {
   color: #002b5b;
 }
 
-.modal-body {
-  border-top: 2px solid #002b5b;
-  border-bottom: 2px solid #002b5b;
-}
-
 .modal-img {
   width: 100%;
   max-width: 500px;
