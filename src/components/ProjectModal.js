@@ -1,6 +1,22 @@
 import React from "react";
 
 function ProjectModal(props) {
+  let tech = props.tech;
+  let info = props.info;
+  let techList = tech.map((item, i) => {
+    return (
+      <li key={i} className="roboto fw-light">
+        {item}
+      </li>
+    );
+  });
+  let infoList = info.map((item, i) => {
+    return (
+      <li key={i} className="roboto fw-light">
+        {item}
+      </li>
+    );
+  });
   return (
     <div
       className="modal fade p-0"
@@ -9,7 +25,7 @@ function ProjectModal(props) {
       aria-labelledby="exampleModalLabel"
       aria-hidden="true"
     >
-      <div className="modal-dialog modal-dialog-centered modal-lg">
+      <div className="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
         <div className="modal-content">
           <div className="modal-header">
             <h1 className="modal-title fs-5" id="exampleModalLabel">
@@ -23,8 +39,21 @@ function ProjectModal(props) {
             ></button>
           </div>
           <div className="modal-body">
+            <h3 className="text-center modal-projname mb-4">{props.name}</h3>
             <div className="row">
-              <div className="col-lg-7">
+              <div className="col-lg-6">
+                <h5 className="roboto fw-light">{props.desc}</h5>
+                <h5 className="roboto mt-3 fw-bold">Technologies Used: </h5>
+                <ul>{techList}</ul>
+              </div>
+              <div className="col-lg-6">
+                <h5 className="roboto fw-bold">Information: </h5>
+                <ul>{infoList}</ul>
+              </div>
+            </div>
+            <hr />
+            <div className="row">
+              <div className="col-lg-7 d-flex flex-column justify-content-center">
                 <img
                   className="project-img rounded shadow mb-3"
                   src={props.image1}
@@ -38,7 +67,7 @@ function ProjectModal(props) {
               </div>
               <div className="col-lg-5">
                 <img
-                  className="project-img rounded shadow"
+                  className="project-img rounded shadow mt-3 mt-lg-0"
                   src={props.mbImage}
                   alt="Project"
                 />
