@@ -9,7 +9,7 @@ function About() {
         About Me
       </h2>
       <div className="container mt-5">
-        <div className="row row-cols-1 row-cols-lg-3" data-aos="fade-up">
+        <div className="row row-cols-1 row-cols-lg-3 gy-3" data-aos="fade-up">
           <AboutCard
             title="Education"
             content={[
