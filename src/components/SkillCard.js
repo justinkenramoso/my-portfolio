@@ -2,7 +2,7 @@ import React from "react";
 
 function SkillCard(props) {
   return (
-    <div className="col">
+    <div className="col" data-aos="fade-up">
       <div className={`skill-card p-3 ${props.logo}`}>
         <div className="row">
           <div className="col-12 col-md-6 d-flex justify-content-center align-items-center">

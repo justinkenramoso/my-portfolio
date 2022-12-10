@@ -2,20 +2,12 @@
 
 #about {
   min-height: 100vh;
+  color: $accent1;
 }
 .about-card {
-  border: 1px solid $accent1;
-}
-.dl-resume {
-  text-decoration: none !important;
-  font-size: medium;
-  background-color: $accent1;
-  color: white !important;
+  background-color: white;
   padding: 10px;
-  border: 2px solid $accent1;
-  border-radius: 10px;
-  transition: 0.5s;
-  :hover {
-    color: white;
-  }
+  border-radius: 5px;
+  height: 100%;
+  cursor: pointer;
 }

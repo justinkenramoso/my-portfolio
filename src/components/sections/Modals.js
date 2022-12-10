@@ -31,6 +31,7 @@ function Modals() {
       <ProjectModal
         id="spider-modal"
         name="Spider PC Store"
+        desc="An e-commerce app for an imaginary computer hardware store. Built as Capstone Project."
         tech={[
           "Node JS",
           "Express JS",

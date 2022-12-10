@@ -2,7 +2,7 @@ import React from "react";
 
 function ProjectItem(props) {
   return (
-    <div data-aos="zoom-in">
+    <div data-aos="fade-up">
       {/* <!--RMDB--> */}
       <img
         className="project-img rounded shadow"

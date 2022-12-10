@@ -161,7 +161,7 @@ header {
 }
 
 .bootstrap:hover {
-  color: #563d7c;
+  color: #7411f6;
 }
 
 .sass:hover {
@@ -186,24 +186,15 @@ header {
 
 #about {
   min-height: 100vh;
+  color: #002b5b;
 }
 
 .about-card {
-  border: 1px solid #002b5b;
-}
-
-.dl-resume {
-  text-decoration: none !important;
-  font-size: medium;
-  background-color: #002b5b;
-  color: white !important;
+  background-color: white;
   padding: 10px;
-  border: 2px solid #002b5b;
-  border-radius: 10px;
-  transition: 0.5s;
-}
-.dl-resume :hover {
-  color: white;
+  border-radius: 5px;
+  height: 100%;
+  cursor: pointer;
 }
 
 #contact {
@@ -310,7 +301,7 @@ header {
 
 html,
 body {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 .html {
