@@ -206,7 +206,7 @@ header {
 .contact-card {
   width: 100%;
   cursor: pointer;
-  transition: all 0.3s;
+  transition: all 0.5s;
 }
 
 .contact-card:hover {
@@ -216,6 +216,15 @@ header {
 .ellipsis {
   white-space: nowrap;
   overflow: hidden;
+}
+
+.footer-icon {
+  color: white;
+  transition: all 0.3s;
+}
+
+.footer-icon:hover {
+  color: #8fe3cf;
 }
 
 @font-face {

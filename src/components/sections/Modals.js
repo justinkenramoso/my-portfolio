@@ -23,7 +23,14 @@ function Modals() {
           "Uses Handlebars for layout.",
           "Uses Bootstrap for easy responsiveness.",
         ]}
-        tech={["Node JS", "Express JS", "Handlebars", "Bootstrap", "Vercel"]}
+        tech={[
+          "Node JS",
+          "Node-Fetch",
+          "Express JS",
+          "Handlebars",
+          "Bootstrap",
+          "Vercel",
+        ]}
         image1={rmdbImg}
         image2={rmdbImg2}
         mbImage={rmdbImgMb}

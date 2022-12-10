@@ -1,0 +1,9 @@
+@import "variables";
+
+.footer-icon {
+  color: white;
+  transition: all 0.3s;
+}
+.footer-icon:hover {
+  color: $accent2;
+}

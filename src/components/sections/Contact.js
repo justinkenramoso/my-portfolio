@@ -1,6 +1,7 @@
 import React from "react";
 import ContactCard from "../ContactCard";
 import ContactForm from "../ContactForm";
+import Footer from "../Footer";
 
 function Contact() {
   return (
@@ -19,11 +20,17 @@ function Contact() {
                 value2="@gmail.com"
               />
               <ContactCard icon="phone" iconType="solid" value="09122795762" />
-              <ContactCard icon="linkedin" iconType="brands" value="LinkedIn" />
+              <ContactCard
+                icon="linkedin"
+                iconType="brands"
+                value="LinkedIn"
+                link="https://www.linkedin.com/in/justin-ken-ramoso-1a63b0255/"
+              />
               <ContactCard
                 icon="facebook-messenger"
                 iconType="brands"
                 value="Messenger"
+                link="https://www.messenger.com/t/100022292184090/"
               />
             </div>
           </div>
@@ -32,6 +39,7 @@ function Contact() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

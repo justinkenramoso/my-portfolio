@@ -2,7 +2,7 @@ import React from "react";
 
 function ContactForm() {
   return (
-    <div className="px-5 text-start mb-5 mb-lg-0" data-aos="zoom-in">
+    <div className="px-5 text-start mb-5" data-aos="zoom-in">
       <form>
         <label className="form-label fs-5 mb-0" htmlFor="name">
           Name
