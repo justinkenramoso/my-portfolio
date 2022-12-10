@@ -30,7 +30,7 @@ function Contact() {
                 icon="facebook-messenger"
                 iconType="brands"
                 value="Messenger"
-                link="https://www.messenger.com/t/100022292184090/"
+                link="https://www.messenger.com/t/100017549310685"
               />
             </div>
           </div>
