@@ -3,7 +3,7 @@ import React from "react";
 function ContactForm() {
   return (
     <div className="px-5 text-start mb-5" data-aos="zoom-in">
-      <form>
+      <form action="https://formspree.io/f/xwkzgaek" method="POST">
         <label className="form-label fs-5 mb-0" htmlFor="name">
           Name
         </label>
