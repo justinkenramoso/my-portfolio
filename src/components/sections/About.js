@@ -12,6 +12,7 @@ function About() {
         <div className="row row-cols-1 row-cols-lg-3 gy-3" data-aos="fade-up">
           <AboutCard
             title="Education"
+            icon="book"
             content={[
               {
                 label: "Arellano University",
@@ -25,6 +26,7 @@ function About() {
           />
           <AboutCard
             title="Experience"
+            icon="code"
             content={[
               {
                 label: "KodeGo Full Stack Web Development Bootcamp",
@@ -34,6 +36,7 @@ function About() {
           />
           <AboutCard
             title="Personality"
+            icon="face-smile"
             content={[
               {
                 label: "As a Developer",

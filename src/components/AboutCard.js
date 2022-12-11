@@ -13,7 +13,9 @@ function AboutCard(props) {
   return (
     <div className="col">
       <div className="about-card">
-        <h4 className="about-title">{props.title}</h4>
+        <h4 className="about-title">
+          <i className={`fa-solid fa-${props.icon}`}></i> {props.title}
+        </h4>
         <hr />
         <ul className="text-start">{contentList}</ul>
       </div>

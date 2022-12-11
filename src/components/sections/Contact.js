@@ -11,7 +11,7 @@ function Contact() {
       </h2>
       <div className="container mt-5">
         <div className="row row-cols-1 row-cols-lg-2">
-          <div className="col d-flex flex-column align-items-center order-1 order-lg-0">
+          <div className="col d-flex flex-column align-items-center mt-5 order-1 order-lg-0">
             <div className="row row-cols-2 gy-3">
               <ContactCard
                 icon="envelope"

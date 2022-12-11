@@ -2,7 +2,7 @@ import React from "react";
 
 function ContactForm() {
   return (
-    <div className="px-5 text-start mb-5" data-aos="zoom-in">
+    <div className="px-2 px-md-5 text-start mb-5" data-aos="zoom-in">
       <form action="https://formspree.io/f/xwkzgaek" method="POST">
         <label className="form-label fs-5 mb-0" htmlFor="name">
           Name
@@ -35,7 +35,7 @@ function ContactForm() {
         />
         <div className="d-flex justify-content-end align-items-center mt-4">
           <button className="btn btn-light px-5" type="submit">
-            <i class="fa-solid fa-paper-plane"></i> Send
+            <i className="fa-solid fa-paper-plane"></i> Send
           </button>
         </div>
       </form>
