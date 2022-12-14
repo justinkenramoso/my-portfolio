@@ -3,6 +3,7 @@ import ProjectItem from "../ProjectItem";
 // Project Images
 import rmdbImg from "../../images/projects/rmdb.png";
 import spiderImg from "../../images/projects/spider.png";
+import gsImg from "../../images/projects/gs.PNG";
 
 function Projects() {
   return (
@@ -27,6 +28,15 @@ function Projects() {
             live="https://spider-pc-store.vercel.app/"
             source="https://github.com/justinkenramoso/spider-pc-store"
             modal="#spider-modal"
+          />
+        </div>
+        <div className="col">
+          <ProjectItem
+            name="GameSnap (ongoing development)"
+            image={gsImg}
+            live="https://game-snap.vercel.app/"
+            source="https://github.com/justinkenramoso/gamesnap"
+            modal="#gs-modal"
           />
         </div>
       </div>

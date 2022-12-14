@@ -7,6 +7,7 @@ import rmdbImgMb from "../../images/projects/rmdb-mb.jpg";
 import spiderImg from "../../images/projects/spider.png";
 import spiderImg2 from "../../images/projects/spider2.PNG";
 import spiderImgMb from "../../images/projects/spider-mb.jpg";
+import gsImg from "../../images/projects/gs.PNG";
 
 function Modals() {
   return (
@@ -58,6 +59,16 @@ function Modals() {
         image1={spiderImg}
         image2={spiderImg2}
         mbImage={spiderImgMb}
+      />
+      <ProjectModal
+        id="gs-modal"
+        name="GameSnap"
+        desc="News, Giveaways, and Info about Free2Play games."
+        tech={["React JS", "Bootstrap", "Axios", "Vercel"]}
+        info={[
+          "Currently under development, but you can visit to check out my progress so far.",
+        ]}
+        image1={gsImg}
       />
     </div>
   );
