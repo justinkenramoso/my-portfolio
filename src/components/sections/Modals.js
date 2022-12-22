@@ -8,10 +8,28 @@ import spiderImg from "../../images/projects/spider.png";
 import spiderImg2 from "../../images/projects/spider2.PNG";
 import spiderImgMb from "../../images/projects/spider-mb.jpg";
 import gsImg from "../../images/projects/gs.PNG";
+import gsImg2 from "../../images/projects/gs2.PNG";
+import gsImgMb from "../../images/projects/gs-mb.jpg";
 
 function Modals() {
   return (
     <div>
+      <ProjectModal
+        id="gs-modal"
+        name="GameSnap"
+        desc="News, Giveaways, and Info about Free2Play games. Have been using it for myself to find games to play recently."
+        tech={["React JS", "Bootstrap", "Axios", "Vercel"]}
+        info={[
+          "Consumes MMOBOMB RapidAPI through Axios.",
+          "Every game can be viewed individually for more in-depth information.",
+          "Has gameplay screenshots and videos.",
+          "Can filter by platform and genre, as well as sort results.",
+          "Also has News and Giveaways section.",
+        ]}
+        image1={gsImg}
+        image2={gsImg2}
+        mbImage={gsImgMb}
+      />
       <ProjectModal
         id="rmdb-modal"
         name="Rick and Morty Database"
@@ -59,16 +77,6 @@ function Modals() {
         image1={spiderImg}
         image2={spiderImg2}
         mbImage={spiderImgMb}
-      />
-      <ProjectModal
-        id="gs-modal"
-        name="GameSnap"
-        desc="News, Giveaways, and Info about Free2Play games."
-        tech={["React JS", "Bootstrap", "Axios", "Vercel"]}
-        info={[
-          "Currently under development, but you can visit to check out my progress so far.",
-        ]}
-        image1={gsImg}
       />
     </div>
   );

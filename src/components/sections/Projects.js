@@ -14,6 +14,15 @@ function Projects() {
       <div className="row row-cols-1 row-cols-lg-2">
         <div className="col">
           <ProjectItem
+            name="GameSnap"
+            image={gsImg}
+            live="https://game-snap.vercel.app/"
+            source="https://github.com/justinkenramoso/gamesnap"
+            modal="#gs-modal"
+          />
+        </div>
+        <div className="col">
+          <ProjectItem
             name="Rick and Morty Database"
             image={rmdbImg}
             live="https://rm-db.vercel.app/"
@@ -28,15 +37,6 @@ function Projects() {
             live="https://spider-pc-store.vercel.app/"
             source="https://github.com/justinkenramoso/spider-pc-store"
             modal="#spider-modal"
-          />
-        </div>
-        <div className="col">
-          <ProjectItem
-            name="GameSnap (ongoing development)"
-            image={gsImg}
-            live="https://game-snap.vercel.app/"
-            source="https://github.com/justinkenramoso/gamesnap"
-            modal="#gs-modal"
           />
         </div>
       </div>
