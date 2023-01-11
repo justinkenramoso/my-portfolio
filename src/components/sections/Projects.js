@@ -4,6 +4,7 @@ import ProjectItem from "../ProjectItem";
 import rmdbImg from "../../images/projects/rmdb.png";
 import spiderImg from "../../images/projects/spider.png";
 import gsImg from "../../images/projects/gs.PNG";
+import ttImg from "../../images/projects/tt.PNG";
 
 function Projects() {
   return (
@@ -12,6 +13,14 @@ function Projects() {
         Recent Projects
       </h2>
       <div className="row row-cols-1 row-cols-lg-2">
+        <div className="col">
+          <ProjectItem
+            name="Timeless Trinkets (under dev)"
+            image={ttImg}
+            live="https://ttrinkets.vercel.app/"
+            source="https://github.com/justinkenramoso/ttrinkets"
+          />
+        </div>
         <div className="col">
           <ProjectItem
             name="GameSnap"
