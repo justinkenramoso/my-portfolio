@@ -45,7 +45,7 @@ function Landing() {
           {/* <!--Resume--> */}
           <a
             className="introBtn resumeBtn hvr-grow-rotate"
-            href="https://drive.google.com/file/d/15JXOBZ72wX_rAaOYm9k7K_It9hs8U6wJ/view?usp=sharing"
+            href="hthttps://drive.google.com/file/d/1D0RCEAYYgRAFNZZK0vQlf6H-FxIAY3Cg/view?usp=share_linktps://drive.google.com/file/d/15JXOBZ72wX_rAaOYm9k7K_It9hs8U6wJ/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
